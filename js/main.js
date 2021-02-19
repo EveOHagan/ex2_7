@@ -605,7 +605,7 @@ function sendYN(){
   
       .then(function () {
         console.log("Document successfully written!");
-        window.location.href =("postExperiment.html")
+        window.location.href =("postexperiment.html")
       })
       .catch(function (error) {
           console.error("Error writing document: ", error);
